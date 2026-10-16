@@ -1,0 +1,585 @@
+
+
+  <!-- =========================================
+       PRELOADER
+  ========================================== -->
+
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-small">Handmade chocolate</div>
+
+      <div class="preloader-title">
+        <span>NS CHOCOROOM</span>
+      </div>
+
+      <div class="loader-line"></div>
+    </div>
+  </div>
+
+  <!-- =========================================
+       CUSTOM CURSOR
+  ========================================== -->
+
+  <div class="cursor" id="cursor"></div>
+
+  <!-- =========================================
+       NAVIGATION
+  ========================================== -->
+
+  <header class="navbar" id="navbar">
+
+    <a href="#" class="brand">
+      NS CHOCOROOM
+    </a>
+
+    <nav class="nav-links" id="siteNavigation" aria-label="Main navigation">
+
+      <a href="#collections" class="nav-link">Collections</a>
+
+      <a href="#chocolates" class="nav-link">
+        Chocolates
+      </a>
+
+      <a href="#story" class="nav-link">
+        Our Story
+      </a>
+
+      <a href="#cacao" class="nav-link">
+        Cacao
+      </a>
+
+      <a href="#gifting" class="nav-link">Gifting</a>
+
+      <a href="#shop" class="nav-link">
+        Shop
+      </a>
+      <a href="#contact" class="nav-link">Contact</a>
+
+    </nav>
+
+    <div class="nav-right">
+
+      <button class="nav-cart" id="openCart" type="button" aria-label="Open tasting list">
+        Cart ·
+        <span id="navCartCount">0</span>
+      </button>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="siteNavigation">
+        <span aria-hidden="true">+</span>
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- =========================================
+       HERO
+  ========================================== -->
+
+  <main>
+
+    <section class="hero" id="hero">
+
+      <div class="hero-media" id="heroMedia">
+
+        <img
+          src="/chocolate-box.jpeg"
+          alt="An assortment of handcrafted chocolates"
+          fetchpriority="high"
+        />
+
+      </div>
+
+      <div class="hero-noise"></div>
+
+      <div class="hero-content" id="heroContent">
+
+        <div class="hero-kicker">
+          INDIAN CRAFT CHOCOLATE
+        </div>
+
+        <h1 class="hero-title">
+          <span>Made with<br>intention</span>
+        </h1>
+
+        <div class="hero-subtitle">
+          A contemporary Indian point of view on chocolate, cacao and craft.
+        </div>
+        <div class="hero-actions">
+          <a class="hero-cta hero-cta-primary" href="#collections">Explore collections <span aria-hidden="true">↗</span></a>
+          <a class="hero-cta hero-cta-secondary" href="#story">Our story</a>
+        </div>
+
+      </div>
+
+      <div class="hero-scroll">
+
+        <span>Scroll</span>
+
+        <div class="hero-scroll-line"></div>
+
+      </div>
+
+    </section>
+
+    <!-- =========================================
+         INTRO
+    ========================================== -->
+
+    <section
+      class="intro-transition"
+      id="intro"
+    >
+
+      <p>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">Chocolate</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">made</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">with</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift"><em>patience</em></span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">intention</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">and</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">respect</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">for</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">the</span></span></span>
+        <span class="intro-word"><span class="intro-word-mask"><span class="intro-word-shift">cacao.</span></span></span>
+      </p>
+
+    </section>
+
+    <!-- =========================================
+         PRODUCT FILM
+    ========================================== -->
+
+    <section
+      class="product-film"
+      id="chocolates"
+    >
+
+      <div class="film-media">
+
+        <video
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="/chocolate-box.jpeg"
+        >
+          <source
+            src="/1000315414.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+      </div>
+
+      <div class="film-overlay"></div>
+
+      <div class="film-content">
+
+        <div class="film-label reveal">
+          NS CHOCOROOM collection
+        </div>
+
+        <h2 class="film-title reveal reveal-delay-1">
+          From cacao<br>
+          to character.
+        </h2>
+
+        <p class="film-description reveal reveal-delay-2">
+          Every bar begins with carefully selected cacao
+          and ends with a texture, aroma and flavour
+          designed to stay with you.
+        </p>
+
+      </div>
+
+    </section>
+
+    <section class="collection-section" id="collections" aria-labelledby="collectionsTitle">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol><li><a href="#hero">Home</a></li><li aria-hidden="true">/</li><li aria-current="page">Collections</li></ol>
+      </nav>
+      <div class="collection-heading">
+        <div><span class="eyebrow">Find your way in</span><h2 id="collectionsTitle">Explore our<br><em>collections.</em></h2></div>
+        <p>Start with the chocolate, follow the cacao, or find something to share.</p>
+        <div class="carousel-controls" aria-label="Collection carousel controls">
+          <button type="button" id="collectionsPrev" aria-label="Previous collections">←</button>
+          <button type="button" id="collectionsNext" aria-label="Next collections">→</button>
+        </div>
+      </div>
+      <div class="collections-track" id="collectionsTrack" role="region" aria-label="Explore collections" tabindex="0">
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="1 of 8">
+          <a class="collection-image" href="#shop" aria-label="Discover chocolate" style="--collection-image:url('/chocolate-box.jpeg')"></a>
+          <div class="collection-card-copy"><span>01 / THE CHOCOLATE</span><h3>A chocolate to explore</h3><a class="discover-link" href="#shop">Discover <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="2 of 8">
+          <a class="collection-image" href="#cacao" aria-label="Discover cacao and craft" style="--collection-image:url('/cacao.jpg')"></a>
+          <div class="collection-card-copy"><span>02 / THE MAKING</span><h3>From cacao to craft</h3><a class="discover-link" href="#cacao">Discover <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="3 of 8">
+          <a class="collection-image" href="https://www.instagram.com/ns_chocoroom/p/DBW5SX8yMA3/" target="_blank" rel="noopener noreferrer" aria-label="View NS CHOCOROOM custom chocolate hampers on Instagram" style="--collection-image:url('/instagram-DBW5SX8yMA3.jpg')"></a>
+          <div class="collection-card-copy"><span>03 / CUSTOM HAMPERS</span><h3>Gifting, made personal</h3><a class="discover-link" href="https://www.instagram.com/ns_chocoroom/p/DBW5SX8yMA3/" target="_blank" rel="noopener noreferrer">View on Instagram <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="4 of 8">
+          <a class="collection-image" href="#shop" aria-label="Discover hazelnut and caramel" style="--collection-image:url('/Gemini_Generated_Image_.png')"></a>
+          <div class="collection-card-copy"><span>04 / HAZELNUT</span><h3>Nutty caramel bars</h3><a class="discover-link" href="#shop">Discover <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="5 of 8">
+          <a class="collection-image" href="#shop" aria-label="Discover smooth milk chocolate" style="--collection-image:url('/Gemini_Generated_Image_g7bm59g7bm59g7bm.png')"></a>
+          <div class="collection-card-copy"><span>05 / SMOOTH MILK</span><h3>Silky &amp; creamy</h3><a class="discover-link" href="#shop">Discover <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="6 of 8">
+          <a class="collection-image" href="https://www.instagram.com/ns_chocoroom/p/C_VlAsyutwA/" target="_blank" rel="noopener noreferrer" aria-label="View NS CHOCOROOM chocolate Ganesha on Instagram" style="--collection-image:url('/instagram-C_VlAsyutwA.jpg')"></a>
+          <div class="collection-card-copy"><span>06 / FESTIVE CHOCOLATE</span><h3>Chocolate Ganesha</h3><a class="discover-link" href="https://www.instagram.com/ns_chocoroom/p/C_VlAsyutwA/" target="_blank" rel="noopener noreferrer">View on Instagram <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="7 of 8">
+          <a class="collection-image" href="#shop" aria-label="Discover hand-finished chocolates" style="--collection-image:url('/WhatsApp%20Image%202026-10-01%20at%203.05.25%20PM.jpeg')"></a>
+          <div class="collection-card-copy"><span>07 / THE FLAVOUR</span><h3>Hand-finished bars</h3><a class="discover-link" href="#shop">Discover <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="collection-card" role="group" aria-roledescription="slide" aria-label="8 of 8">
+          <a class="collection-image" href="#chocolates" aria-label="Discover the product film" style="--collection-image:url('/WhatsApp%20Image%202026-10-01%20at%203.45.29%20PM.jpeg')"></a>
+          <div class="collection-card-copy"><span>08 / THE FILM</span><h3>From cacao to character</h3><a class="discover-link" href="#chocolates">Discover <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <div class="carousel-progress" aria-hidden="true"><span id="carouselProgress"></span></div>
+    </section>
+
+    <!-- =========================================
+         STORY
+    ========================================== -->
+
+    <section
+      class="story"
+      id="story"
+    >
+
+      <div class="story-visual">
+
+        <div class="story-circle"></div>
+
+        <img
+          class="story-main-image"
+          src="/WhatsApp Image 2026-10-01 at 3.45.29 PM.jpeg"
+          alt="Chocolate pieces with nuts, served on a ceramic plate"
+          loading="lazy"
+        />
+
+        <div class="chocolate-piece chocolate-left">
+          NS CHOCOROOM
+        </div>
+
+        <div class="chocolate-piece chocolate-right">
+          CRAFT
+        </div>
+
+      </div>
+
+      <div class="story-copy">
+
+        <span class="eyebrow reveal">
+          Our story
+        </span>
+
+        <h2 class="reveal reveal-delay-1">
+          The beauty of
+          <span>simple</span>
+          chocolate.
+        </h2>
+
+        <p class="reveal reveal-delay-2">
+          A chocolate room for exploring cacao,
+          craft and the small details that make
+          chocolate memorable.
+        </p>
+
+        <p class="reveal reveal-delay-3">
+          We believe good chocolate deserves
+          attention: to texture, balance, and the
+          pleasure of sharing.
+        </p>
+
+        <a
+          href="#cacao"
+          class="story-link reveal reveal-delay-3"
+        >
+          Discover our cacao
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- =========================================
+         CACAO
+    ========================================== -->
+
+    <section
+      class="cacao"
+      id="cacao"
+    >
+
+      <div class="cacao-content">
+
+        <span class="eyebrow reveal">
+          From the source
+        </span>
+
+        <h2 class="cacao-title reveal reveal-delay-1">
+          Everything begins
+          <em>with cacao.</em>
+        </h2>
+
+        <p class="cacao-copy reveal reveal-delay-2">
+          From the cacao tree to the final bar,
+          every stage shapes the character of
+          the chocolate. We believe good chocolate
+          starts with good ingredients and careful
+          decisions.
+        </p>
+
+      </div>
+
+    </section>
+
+    <section class="craft-journey" id="craft" aria-labelledby="craftTitle">
+      <div class="craft-intro">
+        <span class="eyebrow">The making</span>
+        <h2 id="craftTitle">Cacao, transformed<br><em>with care.</em></h2>
+        <p>Chocolate moves through a series of thoughtful stages. Explore the journey from cacao to the finished piece.</p>
+      </div>
+      <ol class="journey-list">
+        <li><span>01</span><strong>Choose</strong><p>Begin with cacao and ingredients.</p></li>
+        <li><span>02</span><strong>Refine</strong><p>Roast, grind and develop texture.</p></li>
+        <li><span>03</span><strong>Temper</strong><p>Bring chocolate to a smooth finish.</p></li>
+        <li><span>04</span><strong>Share</strong><p>Shape, present and enjoy.</p></li>
+      </ol>
+    </section>
+
+    <section class="gift-feature" id="gifting" aria-labelledby="giftTitle">
+      <div class="gift-image" role="img" aria-label="A selection of chocolates arranged for sharing"></div>
+      <div class="gift-copy">
+        <span class="eyebrow">A thoughtful gesture</span>
+        <h2 id="giftTitle">Chocolate<br><em>to share.</em></h2>
+        <p>Looking for a gift or a larger order? Get in touch through the brand’s Instagram and share what you have in mind.</p>
+        <a class="story-link" href="https://www.instagram.com/ns_chocoroom/" target="_blank" rel="noopener noreferrer">Ask about gifting <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="visit-note" id="experience">
+      <span class="eyebrow">Follow along</span>
+      <h2>More from<br><em>NS CHOCOROOM.</em></h2>
+      <p>See the latest chocolate, process and brand updates on Instagram.</p>
+      <a class="hero-cta hero-cta-primary" href="https://www.instagram.com/ns_chocoroom/" target="_blank" rel="noopener noreferrer">Visit Instagram <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <!-- =========================================
+         STORE
+    ========================================== -->
+
+    <section
+      class="store"
+      id="shop"
+    >
+
+      <div class="store-header">
+
+        <span class="store-kicker">
+          NS CHOCOROOM · Chocolate
+        </span>
+
+        <button
+          class="store-cart"
+          id="openCartSecondary"
+          type="button"
+          aria-label="Open tasting list"
+        >
+          Cart ·
+          <span id="storeCartCount">0</span>
+        </button>
+
+      </div>
+
+      <article class="store-card">
+
+        <div class="store-image">
+
+          <img
+            id="storeImage"
+            src="/WhatsApp%20Image%202026-10-01%20at%203.05.25%20PM.jpeg"
+            alt="Hand-finished chocolates arranged for serving"
+            loading="lazy"
+          />
+
+          <span class="image-caption">
+            Cacao · craft · time
+          </span>
+
+        </div>
+
+        <div class="store-content">
+
+          <span class="eyebrow">
+            Follow the flavour
+          </span>
+
+          <h2>
+            Explore the
+            chocolate selection.
+          </h2>
+
+          <p>
+            Browse the chocolate styles currently shown in this featured selection.
+          </p>
+
+          <p>
+            Choose a style below to add it to your on-page tasting list.
+          </p>
+
+          <fieldset class="selector chocolate-options">
+            <legend>Select your chocolate</legend>
+            <label class="chocolate-option"><input type="radio" name="chocolateChoice" value="Dark · 70% cacao" checked><span>Dark · 70% cacao</span></label>
+            <label class="chocolate-option"><input type="radio" name="chocolateChoice" value="Milk · Smooth & creamy" data-image="/Gemini_Generated_Image_g7bm59g7bm59g7bm.png" data-alt="Smooth milk chocolate selection"><span>Milk · Smooth & creamy</span></label>
+            <label class="chocolate-option"><input type="radio" name="chocolateChoice" value="Hazelnut & caramel" data-image="/Gemini_Generated_Image_.png" data-alt="Hazelnut and caramel chocolates"><span>Hazelnut & caramel</span></label>
+          </fieldset>
+
+          <div class="store-actions">
+
+            <button
+              class="add-button"
+              id="addToCart"
+              type="button"
+            >
+              Add to tasting list
+              <span>↗</span>
+            </button>
+
+            <span
+              class="store-message"
+              id="storeMessage"
+              aria-live="polite"
+            >
+              No checkout is connected yet.
+            </span>
+
+          </div>
+
+        </div>
+
+      </article>
+
+      <div class="store-bottom">
+
+        <div>
+
+          <p>
+Good chocolate invites you to slow down and notice every detail.
+          </p>
+
+          <span>
+            NS CHOCOROOM · chocolate, considered
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+    <section class="faq-section" id="faq" aria-labelledby="faqTitle">
+      <span class="eyebrow">Good to know</span>
+      <h2 id="faqTitle">A few helpful<br><em>details.</em></h2>
+      <div class="faq-list">
+        <details><summary>What can I add to my tasting list?</summary><p>The list includes the chocolate styles shown in the featured selection. It is saved for this browser tab session.</p></details>
+        <details><summary>Can I check out on this page?</summary><p>Checkout and live stock are not connected yet. Use the Instagram contact link to confirm current availability and ordering.</p></details>
+        <details><summary>How do I ask about gifting?</summary><p>Send NS CHOCOROOM a message through Instagram to discuss gifting options and current availability.</p></details>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contactTitle">
+      <div class="contact-heading">
+        <span class="eyebrow">NS CHOCOROOM · Hyderabad</span>
+        <h2 id="contactTitle">Let’s talk<br><em>chocolate.</em></h2>
+        <p>Customized and designer chocolates, with delivery throughout Hyderabad, Telangana. Contact us directly for details and availability.</p>
+      </div>
+      <div class="contact-layout contact-profile-layout">
+        <article class="contact-card contact-care">
+          <span class="contact-label">Call or message</span>
+          <a href="tel:+919885454762">+91 98854 54762 <span aria-hidden="true">↗</span></a>
+          <a href="mailto:your-email@example.com">your-email@example.com <span aria-hidden="true">↗</span></a>
+          <p>Sample email — replace with your business email address.</p>
+          <p>For custom orders, delivery details and current availability, call us or send a direct message on Instagram.</p>
+        </article>
+        <article class="contact-card contact-care">
+          <span class="contact-label">Find us on Instagram</span>
+          <a href="https://www.instagram.com/ns_chocoroom/" target="_blank" rel="noopener noreferrer">@ns_chocoroom <span aria-hidden="true">↗</span></a>
+          <p>See our latest chocolates, gifting ideas and updates from N’s chocoroom.</p>
+        </article>
+      </div>
+    </section>
+
+  <div class="snackbar" id="cartToast" role="status" aria-live="polite" aria-atomic="true" hidden>
+    <span id="cartToastText"></span>
+    <button type="button" id="toastViewCart">View list</button>
+    <button type="button" id="toastDismiss" aria-label="Dismiss notification">×</button>
+  </div>
+
+  <div class="cart-scrim" id="cartScrim" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-hidden="true" inert>
+    <div class="cart-drawer-head"><div><span class="eyebrow">Your selection</span><h2 id="cartTitle">Tasting list <span id="drawerCartCount">(0)</span></h2></div><button class="cart-close" id="closeCart" type="button" aria-label="Close tasting list">×</button></div>
+    <div class="cart-items" id="cartItems" aria-live="polite"><p class="cart-empty">Your tasting list is empty. Choose a chocolate to begin.</p></div>
+    <p class="cart-note">This page has no checkout or live stock connection. Contact NS CHOCOROOM to confirm availability and ordering.</p>
+    <a class="cart-contact" href="https://www.instagram.com/ns_chocoroom/" target="_blank" rel="noopener noreferrer">Contact on Instagram ↗</a>
+  </aside>
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <footer>
+
+    <div class="footer-top">
+
+      <a class="footer-logo" href="#hero" aria-label="NS CHOCOROOM home">
+        NS CHOCOROOM
+      </a>
+
+      <div class="footer-links">
+
+        <a href="#chocolates">
+          Chocolates
+        </a>
+
+        <a href="#story">
+          Story
+        </a>
+
+        <a href="#cacao">
+          Cacao
+        </a>
+
+        <a href="#shop">Shop</a>
+        <a href="#gifting">Gifting</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.instagram.com/ns_chocoroom/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <span>
+        Handmade chocolate
+      </span>
+
+      <span>
+        © <span id="copyrightYear">2026</span> NS CHOCOROOM
+      </span>
+
+    </div>
+
+  </footer>
+
+  
