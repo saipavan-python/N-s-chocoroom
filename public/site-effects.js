@@ -399,7 +399,7 @@
                   "in-view"
                 );
 
-                if (!reduceMotion && !window.matchMedia("(max-width: 600px)").matches) {
+                if (!reduceMotion) {
                   filmVideo.play().catch(() => {});
                 }
 
