@@ -661,17 +661,9 @@
       height: 100%;
       object-fit: cover;
 
-      transform: scale(1.08);
+      transform: translateZ(0);
 
-      animation:
-        filmZoom 20s var(--ease)
-        infinite alternate;
-    }
-
-    @keyframes filmZoom {
-      to {
-        transform: scale(1.17);
-      }
+      backface-visibility: hidden;
     }
 
     .film-overlay {
